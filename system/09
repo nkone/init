@@ -1,0 +1,6 @@
+w
+# -h Ignore header info
+# -u Display load average (uptime output)
+# -s remove the JCPU, PCPU, and login time
+# Alternative who, users, whoami, id -un, who am i, who mom likes, who mom hates
+# Source: https://www.thegeekstuff.com/2009/03/4-ways-to-identify-who-is-logged-in-on-your-linux-system/

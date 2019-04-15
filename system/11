@@ -1,0 +1,3 @@
+df -h
+# --help for more options
+# use -l to see in bytes;

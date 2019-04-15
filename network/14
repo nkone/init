@@ -1,0 +1,2 @@
+hosts file is located in /etc
+use cat /etc/hosts

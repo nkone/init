@@ -1,0 +1,3 @@
+adduser [name]
+# Replace name with desirable name
+# https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/

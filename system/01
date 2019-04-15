@@ -1,0 +1,29 @@
+you can find the file in /etc called debian_version
+use cat /etc/debian_version to see its content
+current version: 9.8
+
+alternative is in /etc/os-release
+output: 
+root@nkone:/etc# cat /etc/os-release
+PRETTY_NAME="Debian GNU/Linux 9 (stretch)"
+NAME="Debian GNU/Linux"
+VERSION_ID="9"
+VERSION="9 (stretch)"
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+or you can use hostnamectl
+root@nkone:/etc# hostnamectl
+   Static hostname: nkone
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: e640bd2049df4bb58e2ab94f1422b052
+           Boot ID: c362d5780cef41ca942786fd5a5088a1
+    Virtualization: oracle
+  Operating System: Debian GNU/Linux 9 (stretch)
+            Kernel: Linux 4.9.0-8-amd64
+      Architecture: x86-64
+
+source : https://linuxize.com/post/how-to-check-your-debian-version/

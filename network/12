@@ -1,0 +1,2 @@
+networksetup -getinfo Ethernet
+# Alternative ipconfig getifaddr en0

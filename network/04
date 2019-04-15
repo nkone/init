@@ -1,0 +1,2 @@
+ip route list | grep "default" | awk '{print "default gateway: " $3}'
+# Alternative: route get default

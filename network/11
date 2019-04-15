@@ -1,0 +1,35 @@
+By looking throught the result from previous ex:
+
+traceroute: Warning: slash16.org has multiple addresses; using 99.84.231.140
+traceroute to slash16.org (99.84.231.140), 64 hops max, 52 byte packets
+ 1  10.112.254.254 (10.112.254.254)  0.674 ms  0.408 ms  0.418 ms
+ 2  192.168.0.2 (192.168.0.2)  0.647 ms  0.444 ms  0.427 ms
+ 3  nat (10.90.1.11)  0.241 ms  0.268 ms  0.210 ms
+ 4  64.62.224.30 (64.62.224.30)  1.231 ms  0.800 ms  0.715 ms
+ 5  64.62.224.253 (64.62.224.253)  3.523 ms  3.465 ms  3.532 ms
+ 6  64.62.224.249 (64.62.224.249)  3.879 ms  3.818 ms  3.780 ms
+ 7  v1851.core2.fmt2.he.net (216.218.200.77)  3.322 ms  3.374 ms  3.188 ms
+ 8  100ge10-1.core3.fmt2.he.net (72.52.92.29)  3.193 ms  3.437 ms  3.313 ms
+ 9  100ge10-2.core1.pao1.he.net (184.105.222.6)  4.193 ms  3.890 ms
+    100ge14-2.core1.sjc2.he.net (72.52.92.246)  4.013 ms
+10  paix02-sfo4.amazon.com (198.32.176.217)  4.529 ms  3.941 ms  3.954 ms
+11  54.240.243.52 (54.240.243.52)  5.523 ms
+    54.240.243.92 (54.240.243.92)  4.837 ms
+    52.93.70.176 (52.93.70.176)  4.896 ms
+12  54.240.243.61 (54.240.243.61)  4.488 ms
+    54.240.243.117 (54.240.243.117)  4.893 ms
+    52.93.237.9 (52.93.237.9)  3.933 ms
+13  205.251.229.92 (205.251.229.92)  5.079 ms
+    205.251.229.80 (205.251.229.80)  4.649 ms *
+14  54.240.242.116 (54.240.242.116)  5.355 ms
+    54.240.242.154 (54.240.242.154)  4.871 ms
+    54.240.242.34 (54.240.242.34)  6.459 ms
+15  * * *
+16  * * *
+17  * * *
+18  server-99-84-231-140.sfo5.r.cloudfront.net (99.84.231.140)  3.841 ms  4.035 ms *
+
+Here, by using "whois", I check what is the private ip and what's not.
+From my current ip, I hop to the default gateway->192.168.0.2->10.90.1.11
+After that, I reach a service called Hurrican Electric, which is the ISP.
+Thus, I concludes that the device @10.90.1.11 connects me to the outside world.

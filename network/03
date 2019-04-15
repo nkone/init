@@ -1,0 +1,2 @@
+ip link show en1 | grep "ether" | awk '{print "wifi MAC: " $2}'
+# Alternative: networksetup -getinfo Wi-Fi

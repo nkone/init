@@ -1,0 +1,5 @@
+systemctl restart ssh
+# Alternative service ssh restart
+# use service ssh status to check
+# systemctl stop ssh
+# systemctl start ssh

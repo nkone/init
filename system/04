@@ -1,0 +1,9 @@
+last reboot
+# alternative use the who command to see who is last login in
+# with flag -b you can see system last boot
+# root@nkone:/etc# who
+# nkone    tty1         2019-04-12 15:35
+# nkone    pts/0        2019-04-12 15:36 (10.0.2.2)
+# root@nkone:/etc# who -b
+#         system boot  2019-04-12 15:35
+# uptime to check how long system has been up

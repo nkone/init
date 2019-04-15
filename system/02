@@ -1,0 +1,2 @@
+hostnamectl set-hostname [Name]
+# Alternative hostname [Name]

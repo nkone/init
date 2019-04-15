@@ -1,0 +1,15 @@
+After using nslookup slash16.org, by using whois + address, the organization I found is from Amazon
+
+Here is part of the results: 
+OrgName:        Amazon.com, Inc.
+OrgId:          AMAZO-4
+Address:        Amazon Web Services, Inc.
+Address:        P.O. Box 81226
+City:           Seattle
+
+After looking up online via https://www.whoishostingthis.com with slash16.org as input:
+The result:
+Hosting Provider: Amazon CloudFront
+IP Address: 143.204.165.181
+
+Amazon CloudFront is a Content Delivery Network (CDN).

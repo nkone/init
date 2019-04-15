@@ -1,0 +1,3 @@
+cat /var/run/sshd.pid
+# Alternative: service ssh status | grep 'Main PID'
+# or ps aux | grep 'sshd'

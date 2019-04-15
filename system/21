@@ -1,0 +1,9 @@
+getent passwd {1000..60000}
+# Each user has a numeric user ID called UID
+# If not specified when creating a new user with the useradd command, 
+# the UID will be automatically selected from the /etc/login.defs file 
+# depending on the UID_MIN and UID_MIN values.
+# To check the UID_MIN and UID_MIN values on your system you can use the following command:
+# grep -E '^UID_MIN|^UID_MAX' /etc/login.defs
+# Knowing the minimal and maximal value allow us to query a list of all normal users in our system.
+# https://linuxize.com/post/how-to-list-users-in-linux/

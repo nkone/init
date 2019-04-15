@@ -1,0 +1,1 @@
+arp -a | grep e1 | awk '{printf $2 "\n"}'

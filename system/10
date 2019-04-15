@@ -1,0 +1,3 @@
+lsblk
+# use -o for extra flags
+# Alternative fdisk -l to list partition table(s)

@@ -1,0 +1,2 @@
+dpkg --list
+# Alternative apt list --installed
